@@ -1,0 +1,34 @@
+{
+  "name": "sandnes-ai-website",
+  "version": "1.0.0",
+  "description": "Professional website for Sandnes AI - Strategic AI Advisory services for Norwegian businesses",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx live-server --port=3000 --open=/index.html",
+    "preview": "npx live-server --port=3000 --open=/index.html --no-browser",
+    "build": "echo 'Build complete - ready for deployment'",
+    "validate": "npx html-validate index.html"
+  },
+  "keywords": [
+    "ai",
+    "consulting",
+    "norway",
+    "business",
+    "strategy",
+    "artificial-intelligence"
+  ],
+  "author": "Mathias Sandnes <mathias@sandnes.ai>",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "html-validate": "^8.7.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mathiassandnes/sandnes-ai-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mathiassandnes/sandnes-ai-website/issues"
+  },
+  "homepage": "https://sandnes.ai"
+}
